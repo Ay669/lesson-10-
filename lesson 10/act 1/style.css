@@ -1,0 +1,36 @@
+body{
+    background-image: url("https://c8.alamy.com/comp/WMBBAF/astronaut-spaceman-suit-with-helmet-isolated-on-white-vertical-WMBBAF.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: blue;
+}
+h1{
+    color: aquamarine;
+    background-color: black;
+    text-decoration: underline;
+}
+a{
+    color: rgb(2, 241, 62);
+    background-color: rgb(19, 17, 17);
+}
+a:hover{
+    color: rgb(224, 56, 5);
+}
+p::first-letter{
+    font-size: 200%;
+    color: red;
+}
+ul li:hover{
+    color: aqua;
+}
+
+
+ul li::before{
+    content:"🌎";
+}
+
+
+ul li::after{
+    content:"🌌";
+}
